@@ -16,7 +16,9 @@
     "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-json": "^2.1.0",
-    "eslint-plugin-prettier": "^3.1.2"
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-simple-import-sort": "^5.0.1"
   },
   "repository": {
     "type": "git",
@@ -30,8 +32,4 @@
     "url": "https://github.com/POLARISDevTeam/eslint-config-polaris/issues"
   },
   "homepage": "https://github.com/POLARISDevTeam/eslint-config-polaris#readme",
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-plugin-simple-import-sort": "^5.0.1"
-  }
 }
