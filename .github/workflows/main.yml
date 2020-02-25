@@ -1,16 +1,19 @@
-name: CI
-
+name: Publish to Github Packages
 on:
   push:
-    branches: 
-      - master
-
+    branches:
+      - feature/deploy-to-github-packages
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: npm publish on every push
-      uses: shawnbot/npm-publish-action@v1.0.1
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Use Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '13.x'
+    - name: Install dependencies
+      uses: npm install
+    - name: Publish to Github Packages
+      uses: npm publish

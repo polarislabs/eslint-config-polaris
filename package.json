@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-node-polaris",
+  "name": "@POLARISDevTeam/eslint-config-node-polaris",
   "version": "1.0.3",
   "description": "private eslint package to use across polaris dev projects to maintain same standard of code.",
   "main": "index.js",
@@ -34,6 +34,6 @@
   },
   "homepage": "https://github.com/POLARISDevTeam/eslint-config-polaris#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@jeffbum"
+    "registry": "https://npm.pkg.github.com/POLARISDevTeam"
   }
 }
