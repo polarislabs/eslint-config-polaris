@@ -35,5 +35,6 @@
   "homepage": "https://github.com/POLARISDevTeam/eslint-config-polaris#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@jeffbum"
-  }
+  },
+  "devDependencies": {}
 }
