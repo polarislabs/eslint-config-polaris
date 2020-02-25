@@ -1,5 +1,5 @@
 {
-  "name": "@POLARISDevTeam/eslint-config-node-polaris",
+  "name": "eslint-config-node-polaris",
   "version": "1.0.3",
   "description": "private eslint package to use across polaris dev projects to maintain same standard of code.",
   "main": "index.js",
