@@ -1,6 +1,6 @@
 {
   "name": "@polarisdevteam/eslint-config-polaris",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "eslint package to use across polaris dev projects to maintain same standard of code.",
   "main": "index.js",
   "scripts": {
@@ -12,19 +12,20 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-json": "^2.1.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint": "^6.8.0",
-    "eslint-plugin-simple-import-sort": "^5.0.1",
-    "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-cypress": "^2.8.1",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "eslint-plugin-simple-import-sort": "^5.0.1"
   },
   "repository": {
     "type": "git",
