@@ -1,3 +1,2 @@
-import common from './common'
 
-module.exports = common;
+module.exports = require('./common');
