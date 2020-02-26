@@ -7,7 +7,7 @@ In project .eslint file, erase anything in there, and replace with:
  ```
  module.exports = {
   extends: [
-    '@jeffbumgardner/polaris', 
+    '@POLARISDevTeam/polaris', 
   ],
 };
 ```
