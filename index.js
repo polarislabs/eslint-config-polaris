@@ -1,7 +1,3 @@
-import reactESLint from './react';
-import nodeESLint from './node';
+import common from './common'
 
-module.exports = {
-  reactESLint,
-  nodeESLint
-}
+module.exports = common;

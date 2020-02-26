@@ -44,3 +44,19 @@ In project .eslint file, erase anything in there, and replace with:
   ],
 };
 ```
+This will use the default JS ESLint rules. If you want Node/React specific, you can instead do:
+```
+ module.exports = {
+  extends: [
+    '@POLARISDevTeam/polaris/node',
+  ],
+};
+```
+or 
+```
+ module.exports = {
+  extends: [
+    '@POLARISDevTeam/polaris/react',
+  ],
+};
+```
