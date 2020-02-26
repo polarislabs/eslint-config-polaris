@@ -11,3 +11,4 @@ In project .eslint file, erase anything in there, and replace with:
   ],
 };
 ```
+This is a Github Package, with a job that will publish to npm when pushed to `master`. Before pushing to `master`, manually update the version in the package.json.
