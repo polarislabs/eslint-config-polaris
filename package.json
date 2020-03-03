@@ -28,17 +28,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/POLARISDevTeam/eslint-config-polaris.git"
+    "url": "git+https://github.com/polarislabs/eslint-config-polaris.git"
   },
   "keywords": [
     "eslint",
     "eslint-config"
   ],
   "bugs": {
-    "url": "https://github.com/POLARISDevTeam/eslint-config-polaris/issues"
+    "url": "https://github.com/polarislabs/eslint-config-polaris/issues"
   },
-  "homepage": "https://github.com/POLARISDevTeam/eslint-config-polaris#readme",
+  "homepage": "https://github.com/polarislabs/eslint-config-polaris#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/POLARISDevTeam"
+    "registry": "https://npm.pkg.github.com/polarislabs"
   }
 }
