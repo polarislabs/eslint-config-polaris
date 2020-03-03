@@ -29,18 +29,18 @@ This will be given to npm in a future step to authenticate to Github Packages.
 To add the registry to npm, run:
 
 ```
-npm config set @polarisdevteam:registry https://npm.pkg.github.com/POLARISDevTeam
+npm config set @polarislabs:registry https://npm.pkg.github.com/polarislabs
 ```
 
 ## Usage
 
-In project root, run `npm i --save-dev @POLARISDevTeam/eslint-config-polaris`.
+In project root, run `npm i --save-dev @polarislabs/eslint-config-polaris`.
 
 In project .eslint file, erase anything in there, and replace with:
  ```
  module.exports = {
   extends: [
-    '@POLARISDevTeam/polaris',
+    '@polarislabs/polaris',
   ],
 };
 ```
@@ -48,15 +48,15 @@ This will use the default JS ESLint rules. If you want Node/React specific, you 
 ```
  module.exports = {
   extends: [
-    '@POLARISDevTeam/polaris/node',
+    '@polarislabs/polaris/node',
   ],
 };
 ```
-or 
+or
 ```
  module.exports = {
   extends: [
-    '@POLARISDevTeam/polaris/react',
+    '@polarislabs/polaris/react',
   ],
 };
 ```
