@@ -51,6 +51,11 @@ module.exports = {
     'sort-keys-fix/sort-keys-fix': 'error',
     '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
     "typescript-sort-keys/interface": "error",
-    "typescript-sort-keys/string-enum": "error"
+    "typescript-sort-keys/string-enum": "error",
+    "padding-line-between-statements": [
+      "error",
+      { blankLine: "always", prev: ["class", "export", "function", "multiline-const", "multiline-expression"], next: "*" },
+      { blankLine: "always", prev: "*", next: ["class", "export", "function", "multiline-const", "multiline-expression", "return"] }
+    ]
   }
 };
