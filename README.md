@@ -1,9 +1,10 @@
 # eslint-config-polaris
-eslint package to use across polaris dev projects to maintain same standard of code. Currently only has the Node eslint config, and nothing for React specific.
+
+An eslint package to use across polaris dev projects to maintain same standard of code. It provides a common configuration, as well as a Node.js and React specific configurations.
 
 This is a Github Package, with a job that will publish to npm when pushed to `master`. Before pushing to `master`, manually update the version in the package.json.
 
-## Setup
+## Connecting to Github npm package registry
 
 To setup your computer to be able to run `npm install` without errors, follow these steps.
 
@@ -60,3 +61,17 @@ or
   ],
 };
 ```
+
+## Developing this package locally
+
+In order to do development of this package, install it from another local source code repository so that you can test that it works.
+
+### Make sure that you install the NPM Dev Dependencies for `eslint-config-polaris`
+
+For instance, `typescript` is required. Make sure that `NODE_ENV=development` and do an npm install in the root of `eslint-config-polaris`.
+
+### From the local repo to consume this package:
+
+`$ npm install ../path/to/eslint-config-polaris`
+
+Add to your `.eslintrc.js` per `Usage` section above.

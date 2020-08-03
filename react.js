@@ -13,15 +13,15 @@ module.exports = {
   },
   overrides: [{
     extends: [
-    'eslint:recommended',
-    'plugin:prettier/recommended'
+      'eslint:recommended',
+      'plugin:prettier/recommended'
     ],
     files: ['*.js'],
     plugins: ['prettier'],
     parser: 'espree',
     parserOptions: {
-    ecmaVersion: 2019,
-    sourceType: 'module'
+      ecmaVersion: 2019,
+      sourceType: 'module'
     },
     rules: {
       '@typescript-eslint/no-var-requires': 'off'
@@ -30,13 +30,14 @@ module.exports = {
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
     camelcase: ['error', {
-    'ignoreDestructuring': true
+      'ignoreDestructuring': true
     }],
     'class-methods-use-this': 'off',
     'consistent-return': 'warn',
     'import/extensions': [2, {
       'json': 'always',
     }],
+    'import/no-default-export': 'error',
     'jsx-a11y/anchor-is-valid': 'off',
     'jsx-a11y/click-events-have-key-events': 'warn',
     "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
