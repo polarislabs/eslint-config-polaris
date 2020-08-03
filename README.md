@@ -1,6 +1,6 @@
 # eslint-config-polaris
 
-An eslint package to use across polaris dev projects to maintain same standard of code. Currently only has the Node eslint config, and nothing for React specific.
+An eslint package to use across polaris dev projects to maintain same standard of code. It provides a common configuration, as well as a Node.js and React specific configurations.
 
 This is a Github Package, with a job that will publish to npm when pushed to `master`. Before pushing to `master`, manually update the version in the package.json.
 
