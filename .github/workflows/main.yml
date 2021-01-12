@@ -17,9 +17,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Use Node
         uses: actions/setup-node@v2
-      - name: Switch to the Node version in the .nvmrc
-        shell: bash -l {0}
-        run: nvm install
       - run: npm install
   publish-to-npm:
     needs: build
