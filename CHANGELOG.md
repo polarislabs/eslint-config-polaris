@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 1.2.2
+## 1.2.6
 
 - Update README to remove steps needed to consume private package.
 

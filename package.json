@@ -1,6 +1,6 @@
 {
   "name": "@polarislabs/eslint-config-polaris",
-  "version": "1.2.2",
+  "version": "1.2.6",
   "description": "private ESLint package to use across polaris dev projects to maintain same standard of code.",
   "main": "index.js",
   "scripts": {
