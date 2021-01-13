@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 1.2.2
+
+- Update README to remove steps needed to consume private package.
+
+## 1.2.1
+
+- Make package public.
+
 ## 1.2.0
 
 - Added `eslint-plugin-sort-keys-fix` plugin to provide a sort-keys rule that also provides auto fix of sort-key errors, eslint's own sort-keys rule does not work for auto fixing.
