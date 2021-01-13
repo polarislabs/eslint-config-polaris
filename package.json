@@ -1,6 +1,6 @@
 {
   "name": "@polarislabs/eslint-config-polaris",
-  "version": "1.2.0",
+  "version": "1.2.6",
   "description": "private ESLint package to use across polaris dev projects to maintain same standard of code.",
   "main": "index.js",
   "scripts": {
@@ -43,8 +43,5 @@
   "bugs": {
     "url": "https://github.com/polarislabs/eslint-config-polaris/issues"
   },
-  "homepage": "https://github.com/polarislabs/eslint-config-polaris#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/polarislabs"
-  }
+  "homepage": "https://github.com/polarislabs/eslint-config-polaris#readme"
 }
