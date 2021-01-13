@@ -1,6 +1,6 @@
 {
-  "name": "@polarisdevteam/eslint-config-polaris",
-  "version": "1.1.4",
+  "name": "@polarislabs/eslint-config-polaris",
+  "version": "1.2.1",
   "description": "private ESLint package to use across polaris dev projects to maintain same standard of code.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "author": "Jeff Bumgardner",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
     "eslint": "^6.8.0",
@@ -25,21 +25,26 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^2.3.0",
-    "eslint-plugin-simple-import-sort": "^5.0.1"
+    "eslint-plugin-simple-import-sort": "^5.0.1",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "eslint-plugin-typescript-sort-keys": "^1.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.6"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/POLARISDevTeam/eslint-config-polaris.git"
+    "url": "git+https://github.com/polarislabs/eslint-config-polaris.git"
   },
   "keywords": [
     "eslint",
     "eslint-config"
   ],
   "bugs": {
-    "url": "https://github.com/POLARISDevTeam/eslint-config-polaris/issues"
+    "url": "https://github.com/polarislabs/eslint-config-polaris/issues"
   },
-  "homepage": "https://github.com/POLARISDevTeam/eslint-config-polaris#readme",
+  "homepage": "https://github.com/polarislabs/eslint-config-polaris#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/POLARISDevTeam"
+    "registry": "https://npm.pkg.github.com/polarislabs"
   }
 }
