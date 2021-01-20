@@ -3,14 +3,14 @@ name: Code Checks
 on:
   pull_request:
     branches:
-      - main
+      - master
     paths:
       - "src/**"
       - "**.js"
       - "**.json"
   push:
     branches:
-      - main
+      - master
     paths:
       - "src/**"
       - "**.js"
