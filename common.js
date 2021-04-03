@@ -28,7 +28,8 @@ module.exports = {
     {
       files: ['*.spec.ts', '*.spec.tsx', '*.test.ts', '*.test.tsx'],
       rules: {
-        'import/no-extraneous-dependencies': 'off'
+        'import/no-extraneous-dependencies': 'off',
+        '@typescript-eslint/explicit-function-return-type': 'off'
       }
     }
   ],

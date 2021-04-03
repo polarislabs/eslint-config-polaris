@@ -24,9 +24,9 @@ module.exports = {
       sourceType: 'module'
     },
     rules: {
-      '@typescript-eslint/no-var-requires': 'off',
-      'jsx-a11y/click-events-have-key-events': 'off',
-      '@typescript-eslint/explicit-function-return-type': 'off'
+      // '@typescript-eslint/no-var-requires': 'off',
+      'jsx-a11y/click-events-have-key-events': 'off'
+      // '@typescript-eslint/explicit-function-return-type': 'off'
     }
   }],
   rules: {
