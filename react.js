@@ -31,7 +31,7 @@ module.exports = {
   rules: {
     'import/no-default-export': 'error',
     'jsx-a11y/anchor-is-valid': 'off',
-    'jsx-a11y/click-events-have-key-events': 'warn',
+    'jsx-a11y/click-events-have-key-events': 'off',
     'react/forbid-prop-types': 'warn',
     'react/jsx-filename-extension': [1, { 'extensions': ['.jsx', '.tsx'] }],
     'react/jsx-one-expression-per-line': 'off',
