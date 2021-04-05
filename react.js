@@ -24,25 +24,18 @@ module.exports = {
       sourceType: 'module'
     },
     rules: {
-      '@typescript-eslint/no-var-requires': 'off'
+      '@typescript-eslint/no-var-requires': 'off',
+      '@typescript-eslint/explicit-function-return-type': 'off'
     }
   }],
   rules: {
-    'arrow-body-style': ['error', 'as-needed'],
-    camelcase: ['error', {
-      'ignoreDestructuring': true
-    }],
-    'class-methods-use-this': 'off',
-    'consistent-return': 'warn',
-    'import/extensions': [2, {
-      'json': 'always',
-    }],
     'import/no-default-export': 'error',
     'jsx-a11y/anchor-is-valid': 'off',
-    'jsx-a11y/click-events-have-key-events': 'warn',
-    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }],
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'react/forbid-prop-types': 'warn',
+    'react/jsx-filename-extension': [1, { 'extensions': ['.jsx', '.tsx'] }],
     'react/jsx-one-expression-per-line': 'off',
-    'react/forbid-prop-types': 'warn'
+    'react/jsx-props-no-spreading': 'off'
   }
 };
 

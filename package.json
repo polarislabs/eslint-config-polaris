@@ -1,10 +1,9 @@
 {
   "name": "@polarislabs/eslint-config-polaris",
-  "version": "1.2.6",
+  "version": "1.3.0",
   "description": "private ESLint package to use across polaris dev projects to maintain same standard of code.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm publish"
   },
   "author": "Jeff Bumgardner",

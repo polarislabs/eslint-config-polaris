@@ -24,7 +24,25 @@ module.exports = {
       typescript: {},
     }
   },
+  overrides: [
+    {
+      files: ['*.spec.ts', '*.spec.tsx', '*.test.ts', '*.test.tsx'],
+      rules: {
+        'import/no-extraneous-dependencies': 'off',
+        '@typescript-eslint/explicit-function-return-type': 'off'
+      }
+    }
+  ],
   rules: {
+    'arrow-body-style': ['error', 'as-needed'],
+    camelcase: ['error', {
+      'ignoreDestructuring': true
+    }],
+    'class-methods-use-this': 'off',
+    'consistent-return': 'warn',
+    'import/extensions': [2, {
+      'json': 'always',
+    }],   
     'import/no-extraneous-dependencies': ['error', {
       'devDependencies': [
         'test/**',
@@ -43,6 +61,9 @@ module.exports = {
       'allowTernary': true
     }],
     'no-shadow': 'warn',
+    // per: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md#how-to-use
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],    
     'no-useless-constructor': 'off',
     'prefer-arrow-callback': ['warn', { allowNamedFunctions: false }],
     'quote-props': ['error', 'as-needed'],
