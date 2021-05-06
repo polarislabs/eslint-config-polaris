@@ -1,4 +1,6 @@
 # CHANGELOG
+## 1.4.0
+- Added enforcement of the [curly](https://eslint.org/docs/rules/curly) rule. Brackets will be required.
 
 ## 1.2.6
 
