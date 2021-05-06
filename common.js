@@ -39,6 +39,7 @@ module.exports = {
       'ignoreDestructuring': true
     }],
     'class-methods-use-this': 'off',
+    'curly': 'error',
     'consistent-return': 'warn',
     'import/extensions': [2, {
       'json': 'always',
