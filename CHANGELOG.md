@@ -1,4 +1,8 @@
 # CHANGELOG
+
+## 1.4.1
+- Remove auto-assigned reviewer from Github Actions
+
 ## 1.4.0
 - Added enforcement of the [curly](https://eslint.org/docs/rules/curly) rule. Brackets will be required.
 
