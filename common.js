@@ -68,7 +68,7 @@ module.exports = {
     'no-useless-constructor': 'off',
     'prefer-arrow-callback': ['warn', { allowNamedFunctions: false }],
     'quote-props': ['error', 'as-needed'],
-    'simple-import-sort/sort': 'error',
+    'simple-import-sort/imports': 'error',
     'sort-imports': 'off',
     'sort-keys-fix/sort-keys-fix': 'error',
     '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
