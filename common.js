@@ -72,6 +72,7 @@ module.exports = {
     'sort-imports': 'off',
     'sort-keys-fix/sort-keys-fix': 'error',
     '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
+    '@typescript-eslint/ban-types': 'warn',
     "typescript-sort-keys/interface": "error",
     "typescript-sort-keys/string-enum": "error",
     "padding-line-between-statements": [
