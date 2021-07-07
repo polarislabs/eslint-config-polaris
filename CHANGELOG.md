@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## wip
+## 2.0.0
 - Update typescript from `3.9.6` to `4.3.5`.
 - Update eslint from `6.8.0` to `7.30.0`.
 - Version bump all of the eslint config packages and plugins to the latest.
