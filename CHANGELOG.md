@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 2.0.0
+- Update typescript from `3.9.6` to `4.3.5`.
+- Update eslint from `6.8.0` to `7.30.0`.
+- Version bump all of the eslint config packages and plugins to the latest.
+- Change `simple-import-sort/sort` to `simple-import-sort/imports` due to change [upstream](https://github.com/lydell/eslint-plugin-simple-import-sort/blob/main/CHANGELOG.md#version-600-2020-11-15).
+- Set `@typescript-eslint/ban-types` to `warn` to change the default behaviour (`error`).
+
 ## 1.4.1
 - Remove auto-assigned reviewer from Github Actions
 

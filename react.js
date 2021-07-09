@@ -35,7 +35,9 @@ module.exports = {
     'react/forbid-prop-types': 'warn',
     'react/jsx-filename-extension': [1, { 'extensions': ['.jsx', '.tsx'] }],
     'react/jsx-one-expression-per-line': 'off',
-    'react/jsx-props-no-spreading': 'off'
+    'react/jsx-props-no-spreading': 'off',
+    'react/no-unused-prop-types': 'warn',
+    'react/require-default-props': 'off'
   }
 };
 
